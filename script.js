@@ -2,6 +2,8 @@ const content = document.getElementById('content');
 let page = Number(window.location.hash.replace("#", ""))
 let maxpage = 0
 
+
+
 async function getCharacters() {
 
   const response =
